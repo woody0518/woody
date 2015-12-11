@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">lib_yuchen</string>
+    <!--  新浪微博   -->
+    <string name="WEIBO_AUTH_OK">新浪微博授权成功</string>
+    <string name="WEIBO_AUTH_ERROR">新浪微博授权失败,请重试</string>
+    <string name="WEIBO_AUTH_CANCEL">新浪微博授权取消,请检查设置</string>
+    <!--  百度Map -->
+    <string name="LOC_LOADING">定位中</string>
+    <string name="LOC_ERROR">抱歉未能定位到你的城市,请检查网络链接和GPS</string>
+    <string name="now">刚刚</string>
+    <string name="min_before">分钟前</string>
+    <string name="hour_before">小时前</string>
+    <string name="yesterday_before">昨天</string>
+
+
+</resources>

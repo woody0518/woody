@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="now">刚刚</string>
+    <string name="min_before">分钟前</string>
+    <string name="hour_before">小时前</string>
+    <string name="yesterday_before">昨天</string>
+</resources>

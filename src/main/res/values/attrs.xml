@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <declare-styleable name="ViewPagereIndicator">
+        <attr name="IndicatorNum" format="reference"/>
+        <attr name="IndicatorForeColor" format="color|reference"/>
+        <attr name="IndicatorBackColor" format="color|reference"/>
+        <attr name="IndicatorRadius" format="dimension|reference"/>
+        <attr name="IndicatorGravity">
+            <enum name="middle" value="0"/>
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+        <attr name="IndicatorLineColor" format="color|reference"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="TimeTaskView">
+        <attr name="TextColor" format="color|reference"/>
+        <attr name="TextSize" format="dimension|reference"/>
+        <attr name="MaxValue" format="integer|reference"/>
+        <attr name="MinValue" format="integer|reference"/>
+        <attr name="InterVal" format="integer|reference"/>
+        <attr name="BackGroundColor" format="color|reference"/>
+        <attr name="Runable" format="boolean|reference"/>
+        <!--<attr name="TimeFormate">-->
+            <!--<enum name="HH" value="0x01"/>-->
+            <!--<enum name="REVERSER" value="0x02"/>-->
+        <!--</attr>-->
+        <attr name="Order">
+            <enum name="POSITIVE" value="0x01"/>
+            <enum name="REVERSER" value="0x02"/>
+        </attr>
+
+    </declare-styleable>
+
+</resources>
