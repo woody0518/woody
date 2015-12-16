@@ -102,9 +102,7 @@ public class TimeTaskView extends SurfaceView implements SurfaceHolder.Callback 
     }
 
     public void setOnTimeWrapper(TimeWrapper wrapper) {
-        if (mTimeWrapper != null) {
-            mTimeWrapper = wrapper;
-        }
+        mTimeWrapper = wrapper;
     }
 
     private boolean isAdapterNull(TimeAdapter adapter) {

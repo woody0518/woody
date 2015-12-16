@@ -13,7 +13,6 @@ public class ViewPagerInListView extends ViewPager {
 	
 	@Override
 	public boolean dispatchTouchEvent(MotionEvent ev) {
-//		���߸���View,�ҵĵ���¼������д��?��Ҫ�谭��
 //		getParent().requestDisallowInterceptTouchEvent(true);
 		return super.dispatchTouchEvent(ev);
 	}

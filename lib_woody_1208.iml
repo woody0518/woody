@@ -92,6 +92,7 @@
     <orderEntry type="library" exported="" name="lib_volley_new" level="project" />
     <orderEntry type="library" exported="" name="lib_nineold" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.2.1" level="project" />
+    <orderEntry type="library" exported="" name="android-support-v7-recyclerview" level="project" />
     <orderEntry type="library" exported="" name="ActiveAndroid-3.1" level="project" />
     <orderEntry type="library" exported="" name="filechoose" level="project" />
     <orderEntry type="library" exported="" name="open_sdk" level="project" />
